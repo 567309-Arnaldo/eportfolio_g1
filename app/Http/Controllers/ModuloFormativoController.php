@@ -39,6 +39,18 @@ class ModuloFormativoController extends Controller
         ]);
     }
 
+    public function store(Request $request)
+    {
+        // Validar y almacenar el nuevo módulo formativo
+        // ...
+    }
+
+    public function update(Request $request, int $id)
+    {
+        // Validar y actualizar el módulo formativo existente
+        // ...
+    }
+
     private $modulosFormativos = array(
         // ==========================================
         // TÉCNICO SUPERIOR EN DESARROLLO DE APLICACIONES WEB (DAPW3)
